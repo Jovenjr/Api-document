@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio de Documentación Interna</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        li {
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        li:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        h3 {
+            margin-top: 0;
+            color: #3f51b5;
+        }
+        p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        a {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        a:hover {
+            background-color: #388e3c;
+        }
+        .category {
+            font-size: 12px;
+            background-color: #f1f8e9;
+            color: #689f38;
+            padding: 3px 8px;
+            border-radius: 12px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Documentación Interna Knowledge API</h1>
+    
+    <ul>
+        <!-- API Documentation -->
+        <li>
+            <span class="category">API</span>
+            <h3>Autenticación API</h3>
+            <p>Documentación completa sobre el sistema de autenticación y autorización.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/api/auth-api.txt">auth-api.txt</a>
+        </li>
+        
+        <li>
+            <span class="category">API</span>
+            <h3>Endpoints de Proyectos</h3>
+            <p>Documentación para crear, leer, actualizar y eliminar proyectos.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/api/projects-api.txt">projects-api.txt</a>
+        </li>
+        
+        <li>
+            <span class="category">API</span>
+            <h3>Endpoints de Tareas</h3>
+            <p>API para gestionar tareas asociadas a proyectos.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/api/tasks-api.txt">tasks-api.txt</a>
+        </li>
+        
+        <!-- Database Docs -->
+        <li>
+            <span class="category">Base de Datos</span>
+            <h3>Esquema de Base de Datos</h3>
+            <p>Documentación del modelo de datos y relaciones entre entidades.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/database/schema.txt">schema.txt</a>
+        </li>
+        
+        <li>
+            <span class="category">Base de Datos</span>
+            <h3>Migraciones</h3>
+            <p>Guía para ejecutar y crear migraciones de base de datos.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/database/migrations.txt">migrations.txt</a>
+        </li>
+        
+        <!-- Backend Architecture -->
+        <li>
+            <span class="category">Arquitectura</span>
+            <h3>Arquitectura Backend</h3>
+            <p>Visión general de la arquitectura, patrones y estructura del backend.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/architecture/backend.txt">backend.txt</a>
+        </li>
+        
+        <li>
+            <span class="category">Arquitectura</span>
+            <h3>Flujos de Trabajo</h3>
+            <p>Documentación de los flujos de trabajo principales del sistema.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/architecture/workflows.txt">workflows.txt</a>
+        </li>
+        
+        <!-- DevOps -->
+        <li>
+            <span class="category">DevOps</span>
+            <h3>Despliegue en Producción</h3>
+            <p>Guía paso a paso para el despliegue en entorno de producción.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/devops/deployment.txt">deployment.txt</a>
+        </li>
+        
+        <li>
+            <span class="category">DevOps</span>
+            <h3>Configuración CI/CD</h3>
+            <p>Documentación sobre pipelines de integración y despliegue continuo.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/devops/ci-cd.txt">ci-cd.txt</a>
+        </li>
+        
+        <!-- Testing -->
+        <li>
+            <span class="category">Testing</span>
+            <h3>Estrategia de Pruebas</h3>
+            <p>Documentación sobre la estrategia, herramientas y tipos de pruebas.</p>
+            <a href="https://raw.githubusercontent.com/username/docs-repo/main/testing/strategy.txt">strategy.txt</a>
+        </li>
+    </ul>
+</body>
+</html> 
